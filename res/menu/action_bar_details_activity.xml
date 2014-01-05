@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_close"
+        android:icon="@drawable/ic_menu_close"
+		android:title="@string/close_button"
+        android:showAsAction="ifRoom|withText" />    
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/ic_menu_save"
+		android:title="@string/add_button"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_random"
+        android:icon="@drawable/ic_menu_random"
+        android:title="@string/add_random_button"
+        android:showAsAction="ifRoom|withText" />
+
+</menu>

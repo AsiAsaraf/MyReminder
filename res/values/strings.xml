@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">MyReminder</string>
+	
+	<string name="date_time_dialog_title">Choose date and time</string>
+	
+    <string name="edit_name">Enter name</string>
+    <string name="edit_description">Enter description</string>
+    <string name="editText_address_search_field">Enter Address</string>
+    
+	<string name="close_button">Close Task</string>
+	<string name="add_button">Add Task</string>
+	<string name="add_random_button">Add Random Task</string>
+	<string name="select_address_button">Press to enter location</string>
+
+	<string name="text_time_reminder">Time Reminder</string>
+	<string name="textView_location_reminder">Location Reminder</string>
+	<string name="textView_leave">When I Leave</string>
+	<string name="textView_arrive">When I Arrive</string>   
+	
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="ok">OK</string>
+    
+    <string name="set_date">Set date</string>
+    <string name="set_time">Set time</string>
+    
+    <string name="alert_empty_name">You must fill in Name</string>
+	<string name="alert_no_checkBox_checked">Please choose one of the check boxes: When I Leave When I Arrive</string>
+	<string name="alert_time_past">Cannot set time to past</string>
+	<string name="alert_no_location_chosen">Please specify a location under "Reminder By Location or turn the switch OFF</string>
+	<string name="alert_no_match_addresses">No address to match your input</string>
+	<string name="alert_no_connection">GPS\Network is unavailable</string>
+	
+    <string name="googleAnalytics_ID">UA-42605040-1</string>
+    <string name="googleMaps_API_KEY">AIzaSyBXikZX7f2Rg4LyuzLhQgWvKVC50P42hHw</string>
+</resources>

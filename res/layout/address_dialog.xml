@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editText_address_search_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/editText_address_search_field"
+        android:paddingBottom="10dp" />
+
+    <ImageButton
+        android:id="@+id/image_button_search_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText_address_search_field"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_search" />
+
+    <ListView
+        android:id="@+id/list_view_addresses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_address_search_field"
+        android:layout_centerHorizontal="true"
+        android:divider="@android:color/holo_blue_bright"
+        android:dividerHeight="2dp" >
+    </ListView>
+
+</RelativeLayout>
